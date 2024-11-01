@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento deportivo</title>
+</head>
+<body>
+    <h1>Inscripcion para el torneo de futbol</h1>
+
+    <form action="login" method="post">
+
+        <label for="nombre">Nombre y apellido:</label><input type="text" id="nombre"> 
+        <label for="gmail">Gmail: </label><input type="email" id="gmail">
+        <label for="edad">Edad: </label><input type="number" id="edad">
+    <br>
+    <br>
+        <label for="Cat"> Seleccione su categoria</label>
+            <select name="categoria" id="categoria">
+                <option value="sub-12">Sub-12</option>
+                <option value="sub-15">Sub-15</option>
+                <option value="sub-18">Sub-18</option>
+                <option value="sub-20">Sub-20</option>
+            </select>
+    <br>
+    <br>
+        <label for="Pos"> Posiciones</label>
+        <select name="pos" id="pos">
+            <option value="del">Delantero</option>
+            <option value="mid">MedioCampista</option>
+            <option value="def">Defensor</option>
+            <option value="por">Portero</option>
+        </select>
+    <br>
+    <br>
+        <label for="checkbox"> <input type="checkbox" name="terminos" required> Terminos y condiciones </label>
+    <br>
+    <br>
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+</body>
+</html>

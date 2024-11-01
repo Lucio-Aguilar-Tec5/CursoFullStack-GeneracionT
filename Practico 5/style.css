@@ -1,0 +1,44 @@
+.contenedor{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.pan{
+    width: 600px;
+    height: 70px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: burlywood;
+}
+.sombra1{
+    height: 10px;
+    width: 600px;
+    background-color: rgb(192, 161, 121);
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.pancho{
+    background-color: brown;
+    width: 650px;
+    height: 60px;
+    border-radius: 50px;
+}
+.pan2{
+    width: 600px;
+    height: 70px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: burlywood;
+}
+.sombra2{
+    height: 10px;
+    width: 600px;
+    background-color: rgb(192, 161, 121);
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;  
+}

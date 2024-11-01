@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.imperio {
+    background-color: red;
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.rebeldes {
+    background-color: blue;
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#Vader {
+    font-size: 30px;
+}
+
+#Luke {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.soldados {
+    border: 5px dashed black;
+    letter-spacing: 2px;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
+
+.droides {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}

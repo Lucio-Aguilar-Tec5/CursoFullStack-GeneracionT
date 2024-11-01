@@ -1,0 +1,91 @@
+
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+p{
+    padding: 30px;
+}
+.navbar{
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin-left: 100px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+header{
+    text-decoration: underline;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/jurassic-world-3-colin-posible-reparto-1564386934.jpg);
+    background-size: cover;
+    height: 500px;
+    margin: 10px;
+    color: #fff;
+}
+.txt{
+    padding: 100px;
+}
+footer{
+    background-color: #575757;
+    width: 80%;
+    margin:auto;
+    border-radius: 40px;
+}
+
+/* Enunciado */
+.carnivoros{
+    background-color: rgb(163, 55, 55);
+    width: 80%;
+    margin-left: 100px;
+}
+.herbivoros{
+    background-color: greenyellow;
+    width: 80%;
+    margin-left: 100px;
+}
+
+#trex{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#trice{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.voladores{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) ;
+}
+.acuaticos {
+    font-style: italic; 
+    color: blue; 
+}
+img{
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
+}
