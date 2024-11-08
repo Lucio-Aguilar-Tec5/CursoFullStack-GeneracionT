@@ -1,0 +1,13 @@
+#magia {
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#magia:hover {
+    background-color: blue;
+}

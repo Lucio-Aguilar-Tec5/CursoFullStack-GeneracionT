@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://i.imgur.com/jnCXdAx.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.mouse-img {
+    position: fixed;
+    transition: top 2s, left 2s; /* Transición con delay */
+}
+
+.hide-cursor {
+    cursor: none; /* Oculta el cursor */
+}

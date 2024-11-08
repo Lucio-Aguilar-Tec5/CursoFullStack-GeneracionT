@@ -1,0 +1,12 @@
+#pista {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+img {
+    width: 100px; /* Ancho de los autos */
+    position: absolute;
+    bottom: 0; /* Iniciar los autos en la parte inferior de la pista */
+}

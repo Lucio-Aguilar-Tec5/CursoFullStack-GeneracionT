@@ -1,0 +1,5 @@
+/* Definir la clase .resaltado */
+.resaltado {
+    background-color: yellow;
+    color: red;
+}
